@@ -93,3 +93,19 @@ html {
   font-family: Arial, Helvetica, sans-serif;
   color: #95b8d1;
 }
+
+@media (max-width: 600px) {
+  .content-wrapper {
+    height: 100%;
+    width: 100%;
+  }
+
+  .content-wrapper > h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 10rem;
+  }
+  .content-wrapper > #text {
+    width: 90%;
+  }
+}
